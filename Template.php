@@ -691,7 +691,7 @@ class Template {
         
         // Handle null values
         if ($value === null) {
-            return 'null';
+            return null;
         }
         
         // Handle boolean values
@@ -719,7 +719,7 @@ class Template {
             return 'true';
         }
         
-        return 'null';
+        return null;
     }
     
     /**
